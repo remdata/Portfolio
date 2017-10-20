@@ -14,13 +14,27 @@
 body {
   background-color: white;
   color: black;
+  /*font-family: "Arial"; /*"Lucida Sans Unicode";*/
   padding-top: 100px;
   width: 100%;
 }
 
+h3 {
+  text-align: left;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 14px;
+  text-align: left;
+}
+
 .about-div1 {
   text-align: center;
-  width: 130px;
+  width: 150px;
   /* works with fixed width */
   display: block;
   background-color: white;
@@ -60,10 +74,6 @@ body {
   margin-right: auto;
 }
 
-h6 {
-  text-align: left;
-}
-
 img {
   /*display: block;*/
   border-radius: 4px;
@@ -100,10 +110,16 @@ img:hover {
   margin-right: auto;
 }
 
+.email-line {
+  background-color: yellow;
+  height: 20px;
+  text-align: center;
+}
+
 .footer-div {
   background-color: blue;
   color: white;
-  height: 15px;
+  height: 20px;
   text-align: center;
 }
 
@@ -114,7 +130,7 @@ img:hover {
   color: white;
 }
 
-/* creates a "long tab space" Usage: </span> in HTML*/
+/* creates a "long tab space". Usage: class="tab" + </span> in HTML*/
 span.tab {
   padding: 0 80px;
   /* Or desired space*/
